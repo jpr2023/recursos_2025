@@ -5,6 +5,14 @@
   font-weight: bold;
 }
 
+img {
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px gray;
+}
+.oculto {
+  display: none; /* Oculta el elemento completamente */
+}
+
 h1 {
   color: black;
 }
@@ -13,8 +21,24 @@ h3 {
   color: blue;
 }
 
+h4 {
+  color: green;
+}
 .contenedor {
   text-align: center;
+}
+
+table {
+  border-color: skyblue;
+  border-radius: 5cm;
+  /*box-shadow: 5px 5px 5px gray;*/
+  /*
+  border-style: dotted dashed solid double;
+  border-width: 5px;
+  border-color: red green purple orange;
+  padding: 10px;
+  margin: 10px;
+  */
 }
 
 header,
@@ -147,6 +171,12 @@ aside {
   font-weight: bold;
 }
 
+#p_glosario {
+  /*color: aqua;*/
+  font-weight: normal;
+  text-align: justify;
+  
+}
 nav {
   color: blue;
   background-color: rgb(10, 153, 70);
@@ -156,7 +186,10 @@ td {
   text-align: center;
   border-bottom: 1px solid grey;
   padding-top: 1em;
-  border: 2px solid black;
+  border: 1.5px solid olivedrab;
+  border-radius: 1cm;
+  text-align: justify;
+  border-style: dotted dashed solid double;
 }
 
 @media screen and (min-width: 1px) and (max-width: 768px) {
